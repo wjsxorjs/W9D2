@@ -18,4 +18,13 @@
 > > > select user,host from user; : 데이터베이스 내의 유저와 해당 유저의 제한호스트범위 <br>
 > > ### root 계정에서
 > > > create user [user_name]@'[host]' identified by '[password]'; : 유저 생성 <br>
-> > > grant all privileges on [db_name].* to [user_name]@'[host]' with grant option; : 유저에게 권한부여 <br>
+> > > grant all privileges on [db_name].* to [user_name]@'[host]' with grant option; <br> : 유저에게 권한부여
+
+# GIT
+> (sudo) apt-get install git : GIT 설치
+
+# index.html
+> cd /var/lib/tomcat10/webapps/ROOT : TOMCAT이 설치된 root로 이동 <br>
+> vi index.html : 하위 index.html 확인 및 수정
+> ## Browser에서
+> > `[public Ipv4]:[portnum]`로 브라우저에서 index.html 확인 가능
