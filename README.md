@@ -50,3 +50,8 @@ NginX는 포트번호 80을 가진다.<br>
 Tomcat에 프로젝트나 표시하고자 하는 것들을 저장하고, NginX에서는 proxy를 이용하여<br>
 NginX로 접근하더라도 Tomcat으로 접근해주어 표시하고자하는 자원을 접근시켜준다.
 ___
+<br> <br>
+
+# 다른 프로젝트 표시
+> /var/lib/tomcat10/webapps/ 내부에 WAR파일을 옮긴 후<br>
+> > service tomcat10 restart, service nginx restart로 재시작해준다. <br>
