@@ -42,5 +42,8 @@ ___
 AWS 내부의 TOMCAT은 대부분 8080의 port번호를 가진다.<br>
 외부에서 localhost(혹은 퍼블릭 IPv4 주소):8080을 통해 접근할 수 있다.<br>
 NginX는 포트번호 80을 가진다.<br>
-와부에서 localhost(혹은 퍼블릭 IPv4 주소)를 통해 접근할 수 있다.<br>
+외부에서 localhost(혹은 퍼블릭 IPv4 주소)(:80)를 통해 접근할 수 있다.<br>
+이때, NginX는 WAS와, Tomcat은 Container와 같은 역할을 하기에
+Tomcat에 프로젝트나 표시하고자 하는 것들을 저장하고, NginX에서는 proxy를 이용하여<br>
+NginX로 접근하더라도 Tomcat으로 접근해주어 표시하고자하는 자원을 접근시켜준다.
 ___
