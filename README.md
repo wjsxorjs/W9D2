@@ -29,8 +29,18 @@
 > ## Browser에서
 > > `[public Ipv4]:[portnum]`로 브라우저에서 index.html 확인 가능
 
-#NGINX
+# NGINX
 > apt-get install nginx : nginx 설치 <br>
 > service nginx start: nginx 실행 <br>
 > ## Browser에서
-> > `[public Ipv4]`로 브라우저에서 nginx 설치 및 적용여부 확인 가능
+> > `[public Ipv4]`로 브라우저에서 nginx 설치 및 적용여부 확인 가능 <br>
+> > /usr/share/nginx/html/index.html의 내용이 화면에 표시된다.
+
+<br> <br> <br> <br>
+
+___
+AWS 내부의 TOMCAT은 대부분 8080의 port번호를 가진다.<br>
+외부에서 localhost(혹은 퍼블릭 IPv4 주소):8080을 통해 접근할 수 있다.<br>
+NginX는 포트번호 80을 가진다.<br>
+와부에서 localhost(혹은 퍼블릭 IPv4 주소)를 통해 접근할 수 있다.<br>
+___
