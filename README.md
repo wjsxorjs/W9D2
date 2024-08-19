@@ -25,6 +25,12 @@
 
 # index.html
 > cd /var/lib/tomcat10/webapps/ROOT : TOMCAT이 설치된 root로 이동 <br>
-> vi index.html : 하위 index.html 확인 및 수정
+> vi index.html : 하위 index.html 확인 및 수정 <br>
 > ## Browser에서
 > > `[public Ipv4]:[portnum]`로 브라우저에서 index.html 확인 가능
+
+#NGINX
+> apt-get install nginx : nginx 설치 <br>
+> service nginx start: nginx 실행 <br>
+> ## Browser에서
+> > `[public Ipv4]`로 브라우저에서 nginx 설치 및 적용여부 확인 가능
