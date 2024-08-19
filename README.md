@@ -34,7 +34,10 @@
 > service nginx start: nginx 실행 <br>
 > ## Browser에서
 > > `[public Ipv4]`로 브라우저에서 nginx 설치 및 적용여부 확인 가능 <br>
-> > /usr/share/nginx/html/index.html의 내용이 화면에 표시된다.
+> > /usr/share/nginx/html/index.html의 내용이 화면에 표시된다. <br>
+>
+> vi /etc/nginx/sites-available/default : 설정 변경 <br>
+> service nginx restart : NginX 재시작 <br>
 
 <br> <br>
 
