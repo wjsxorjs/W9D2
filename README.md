@@ -36,7 +36,7 @@
 > > `[public Ipv4]`로 브라우저에서 nginx 설치 및 적용여부 확인 가능 <br>
 > > /usr/share/nginx/html/index.html의 내용이 화면에 표시된다.
 
-<br> <br> <br> <br>
+<br> <br>
 
 ___
 AWS 내부의 TOMCAT은 대부분 8080의 port번호를 가진다.<br>
