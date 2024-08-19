@@ -4,7 +4,7 @@
 # JDBC 설치
 > apt-get install libmariadb-java : JDBC 드라이버 설치 <br>
 > ln -s /usr/share/java/mysql-connector-java.jar /usr/share/tomcat9/lib/mysql-connector-java.jar <br>
-> : JDK와 TOMCAT을 JDBC 드라이버로 연 <br>
+> : JDK와 TOMCAT을 JDBC 드라이버로 연결 <br>
 > service tomcat10 restart : TOMCAT(version 10) 재시작<br>
 
 # MYSQL
